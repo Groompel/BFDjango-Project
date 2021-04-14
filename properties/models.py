@@ -1,4 +1,4 @@
-from misc.models import Address, BusinessCenter, ResidentialComplex, Room
+from misc.models import Address, BusinessCenter, ResidentialComplex
 from django.db import models
 
 # Create your models here.
@@ -9,13 +9,16 @@ class AbstractProperty(models.Model):
                               blank=False, null=False, default=0)
     area = models.FloatField(
         verbose_name='Area', blank=False, null=False, default=0)
-    built_year = models.IntegerField(
+    built_year = models.PositiveIntegerField(
         verbose_name='Year', blank=False, null=False, default=2000)
-    exploitation_year = models.IntegerField(
+    exploitation_year = models.PositiveIntegerField(
         verbose_name='Exploitation year', blank=False, null=False, default=2000)
     address = models.ForeignKey(
         Address, verbose_name='Address', on_delete=models.CASCADE)
-    rooms = models.ManyToManyField(Room, verbose_name='Rooms')
+    number_of_rooms = models.IntegerField(
+        verbose_name='Number of rooms', blank=False, null=False, default=0)
+    description = models.CharField(
+        verbose_name='Description', blank=True, null=True, default='', max_length=1000)
 
     class Meta:
         abstract = True
@@ -26,6 +29,8 @@ class AbstractLivingProperty(AbstractProperty):
         verbose_name='Kitchen area', blank=False, null=False, default=0)
     construction_type = models.CharField(
         verbose_name='Construction type', blank=False, null=False, default='', max_length=100)
+    number_of_bedrooms = models.PositiveSmallIntegerField(
+        verbose_name='Number of bedrooms', blank=False, null=False, default=0)
 
     class Meta:
         abstract = True

@@ -3,18 +3,6 @@ from django.db import models
 # Create your models here.
 
 
-class Room(models.Model):
-    name = models.CharField(verbose_name='Name', blank=False,
-                            null=False, default='', max_length=50)
-
-    class Meta:
-        verbose_name = 'Room'
-        verbose_name_plural = 'Rooms'
-
-    def __str__(self):
-        return self.name
-
-
 class Address(models.Model):
     city = models.CharField(verbose_name='City', blank=False,
                             null=False, default='', max_length=100)
