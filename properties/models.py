@@ -19,3 +19,13 @@ class AbstractProperty(models.Model):
 
     class Meta:
         abstract = True
+
+
+class AbstractLivingProperty(AbstractProperty):
+    kitchen_area = models.FloatField(
+        verbose_name='Kitchen area', blank=False, null=False, default=0)
+    construction_type = models.CharField(
+        verbose_name='Construction type', blank=False, null=False, default='')
+
+    class Meta:
+        abstract = True
