@@ -24,3 +24,10 @@ class Address(models.Model):
         verbose_name='Street', blank=False, null=False, default='', max_length=100)
     street_number = models.PositiveIntegerField(
         verbose_name='Street number', blank=False, null=False, default=1)
+
+    class Meta:
+        verbose_name = 'Address'
+        verbose_name_plural = 'Addresses'
+
+    def __str__(self):
+        return '%s, %s, %s, %i' % (self.city, self.district, self.street, self.street_number)
