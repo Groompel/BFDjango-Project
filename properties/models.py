@@ -1,4 +1,4 @@
-from misc.models import Address, Room
+from misc.models import Address, BusinessCenter, Room
 from django.db import models
 
 # Create your models here.
@@ -29,3 +29,15 @@ class AbstractLivingProperty(AbstractProperty):
 
     class Meta:
         abstract = True
+
+
+class CommercialProperty(AbstractProperty):
+    business_center = models.ForeignKey(
+        BusinessCenter, on_delete=models.CASCADE, verbose_name='Business center')
+
+    class Meta:
+        verbose_name = 'Commerical property'
+        verbose_name_plural = 'Commerical properties'
+
+    def __str__(self):
+        return self.business_center.name
