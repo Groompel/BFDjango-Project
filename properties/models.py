@@ -7,7 +7,7 @@ class AbstractProperty(models.Model):
     price = models.FloatField(verbose_name='Price',
                               blank=False, null=False, default=0)
     area = models.FloatField(
-        verbose_name='Area', blank=False, null=False, defautl=0)
+        verbose_name='Area', blank=False, null=False, default=0)
     built_year = models.IntegerField(
         verbose_name='Year', blank=False, null=False, default=2000)
     exploitation_year = models.IntegerField(
