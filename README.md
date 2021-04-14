@@ -4,6 +4,10 @@ Hello! This is a project for Backend Framework Django 2021 course at Kazakh-Brit
 
 This is a repository for the backend of the website.
 
+### The UML diagram of the project:
+
+![gg](https://github.com/Groompel/Shanyrak/blob/master/UML-class-diagram.jpg?raw=true)
+
 ## What is Shanyrak?
 
 **Shanyrak** - is a platform where you can post your real estate listings as well as find yourself a beautiful home!
