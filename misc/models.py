@@ -45,3 +45,17 @@ class BusinessCenter(models.Model):
 
     def __str__(self):
         return self.name
+
+
+class ResidentialComplex(models.Model):
+    name = models.CharField(verbose_name='Name', blank=False,
+                            null=False, default='', max_length=150)
+    number_of_floors = models.PositiveIntegerField(
+        verbose_name='Number of floors', blank=False, null=False, default=1)
+
+    class Meta:
+        verbose_name = 'Residential complex'
+        verbose_name_plural = 'Residential complexes'
+
+    def __str__(self):
+        return self.name

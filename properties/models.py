@@ -1,4 +1,4 @@
-from misc.models import Address, BusinessCenter, Room
+from misc.models import Address, BusinessCenter, ResidentialComplex, Room
 from django.db import models
 
 # Create your models here.
@@ -55,3 +55,19 @@ class HouseProperty(AbstractLivingProperty):
 
     def __str__(self):
         return '%s, %i floors' % (self.address, self.number_of_floors)
+
+
+class FlatProperty(AbstractLivingProperty):
+    floor = models.PositiveIntegerField(
+        verbose_name='Floor', blank=False, null=False, default=0)
+    number_of_floors_in_house = models.PositiveIntegerField(
+        verbose_name='Number of floors in the house', blank=False, null=False, default=0)
+    residential_complex = models.ForeignKey(
+        ResidentialComplex, on_delete=models.CASCADE)
+
+    class Meta:
+        verbose_name = 'Flat property'
+        verbose_name_plural = 'Flat properties'
+
+    def __str__(self):
+        return '%s, on floor %i / %i' % (self.address, self.floor, self.number_of_floors_in_house)
