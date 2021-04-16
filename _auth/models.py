@@ -16,3 +16,12 @@ class DefaultUser(models.Model):
     gender = models.CharField(verbose_name='Gender',
                               choices=GENDERS, default='male', max_length=6)
     birth_date = models.DateField(verbose_name='Birth date')
+
+
+class Agency(models.Model):
+    name = models.CharField(verbose_name='Name',
+                            max_length=250, blank=False, null=False, default='')
+
+
+class Agent(DefaultUser):
+    agency = models.ForeignKey(Agency, on_delete=models.CASCADE)
