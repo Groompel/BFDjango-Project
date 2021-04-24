@@ -15,18 +15,26 @@ class Migration(migrations.Migration):
         migrations.CreateModel(
             name='FlatProperty',
             fields=[
-                ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
+                ('id', models.AutoField(auto_created=True,
+                                        primary_key=True, serialize=False, verbose_name='ID')),
                 ('price', models.FloatField(default=0, verbose_name='Price')),
                 ('area', models.FloatField(default=0, verbose_name='Area')),
-                ('built_year', models.IntegerField(default=2000, verbose_name='Year')),
-                ('exploitation_year', models.IntegerField(default=2000, verbose_name='Exploitation year')),
-                ('kitchen_area', models.FloatField(default=0, verbose_name='Kitchen area')),
-                ('construction_type', models.CharField(default='', max_length=100, verbose_name='Construction type')),
-                ('floor', models.PositiveIntegerField(default=0, verbose_name='Floor')),
-                ('number_of_floors_in_house', models.PositiveIntegerField(default=0, verbose_name='Number of floors in the house')),
-                ('address', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='misc.address', verbose_name='Address')),
-                ('residential_complex', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='misc.residentialcomplex')),
-                ('rooms', models.ManyToManyField(to='misc.Room', verbose_name='Rooms')),
+                ('built_year', models.IntegerField(
+                    default=2000, verbose_name='Year')),
+                ('exploitation_year', models.IntegerField(
+                    default=2000, verbose_name='Exploitation year')),
+                ('kitchen_area', models.FloatField(
+                    default=0, verbose_name='Kitchen area')),
+                ('construction_type', models.CharField(default='',
+                                                       max_length=100, verbose_name='Construction type')),
+                ('floor', models.PositiveIntegerField(
+                    default=0, verbose_name='Floor')),
+                ('number_of_floors_in_house', models.PositiveIntegerField(
+                    default=0, verbose_name='Number of floors in the house')),
+                ('address', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE,
+                                              to='misc.address', verbose_name='Address')),
+                ('residential_complex', models.ForeignKey(
+                    on_delete=django.db.models.deletion.CASCADE, to='misc.residentialcomplex')),
             ],
             options={
                 'verbose_name': 'Flat property',

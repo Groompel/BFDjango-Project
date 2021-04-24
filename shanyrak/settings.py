@@ -25,8 +25,9 @@ SECRET_KEY = '5h7y9r&1sh=jb!m-e^v67wude$9bfy1ns-d=v%iu(xsi9mfdf8'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['localhost']
 
+CORS_ORIGIN_ALLOW_ALL = True
 
 # Application definition
 
@@ -37,12 +38,16 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'corsheaders',
+    'rest_framework',
+    'rest_framework_jwt',
     '_auth',
     'misc',
     'properties',
 ]
 
 MIDDLEWARE = [
+    'corsheaders.middleware.CorsMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -72,6 +77,17 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'shanyrak.wsgi.application'
 
+
+REST_FRAMEWORK = {
+    'DEFAULT_PERMISSION_CLASSES': (
+        'rest_framework.permissions.IsAuthenticated',
+    ),
+    'DEFAULT_AUTHENTICATION_CLASSES': (
+        'rest_framework_jwt.authentication.JSONWebTokenAuthentication',
+        'rest_framework.authentication.SessionAuthentication',
+        'rest_framework.authentication.BasicAuthentication',
+    ),
+}
 
 # Database
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases

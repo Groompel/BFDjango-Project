@@ -16,14 +16,18 @@ class Migration(migrations.Migration):
         migrations.CreateModel(
             name='CommercialProperty',
             fields=[
-                ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
+                ('id', models.AutoField(auto_created=True,
+                                        primary_key=True, serialize=False, verbose_name='ID')),
                 ('price', models.FloatField(default=0, verbose_name='Price')),
                 ('area', models.FloatField(default=0, verbose_name='Area')),
-                ('built_year', models.IntegerField(default=2000, verbose_name='Year')),
-                ('exploitation_year', models.IntegerField(default=2000, verbose_name='Exploitation year')),
-                ('address', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='misc.address', verbose_name='Address')),
-                ('business_center', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='misc.businesscenter', verbose_name='Business center')),
-                ('rooms', models.ManyToManyField(to='misc.Room', verbose_name='Rooms')),
+                ('built_year', models.IntegerField(
+                    default=2000, verbose_name='Year')),
+                ('exploitation_year', models.IntegerField(
+                    default=2000, verbose_name='Exploitation year')),
+                ('address', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE,
+                                              to='misc.address', verbose_name='Address')),
+                ('business_center', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE,
+                                                      to='misc.businesscenter', verbose_name='Business center')),
             ],
             options={
                 'verbose_name': 'Commerical property',
