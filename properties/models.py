@@ -38,7 +38,7 @@ class AbstractLivingProperty(AbstractProperty):
 
 class CommercialProperty(AbstractProperty):
     business_center = models.ForeignKey(
-        BusinessCenter, on_delete=models.CASCADE, verbose_name='Business center')
+        BusinessCenter, on_delete=models.CASCADE, verbose_name='Business center', blank=True, null=True)
 
     class Meta:
         verbose_name = 'Commerical property'
@@ -68,7 +68,7 @@ class FlatProperty(AbstractLivingProperty):
     number_of_floors_in_house = models.PositiveIntegerField(
         verbose_name='Number of floors in the house', blank=False, null=False, default=0)
     residential_complex = models.ForeignKey(
-        ResidentialComplex, on_delete=models.CASCADE)
+        ResidentialComplex, on_delete=models.CASCADE, blank=True, null=True)
 
     class Meta:
         verbose_name = 'Flat property'
