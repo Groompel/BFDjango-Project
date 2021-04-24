@@ -1,3 +1,4 @@
+from _auth.models import DefaultUser
 from misc.models import Address, BusinessCenter, ResidentialComplex
 from django.db import models
 
@@ -5,6 +6,7 @@ from django.db import models
 
 
 class AbstractProperty(models.Model):
+    user = models.ForeignKey(DefaultUser, on_delete=models.CASCADE)
     price = models.FloatField(verbose_name='Price',
                               blank=False, null=False, default=0)
     area = models.FloatField(
