@@ -419,3 +419,402 @@ TypeError: get_object() takes 1 positional argument but 2 were given
 2021-05-16 08:29:38,141 _auth.views  INFO     Retieve a user profile of admin
 2021-05-16 09:31:15,504 asyncio      DEBUG    Using selector: KqueueSelector
 2021-05-16 09:31:15,678 asyncio      DEBUG    Using selector: KqueueSelector
+2021-05-16 11:31:56,851 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2021-05-16 11:32:04,216 django.request WARNING  Not Found: /
+2021-05-16 11:32:04,521 django.request WARNING  Not Found: /favicon.ico
+2021-05-16 11:32:23,660 PIL.Image    DEBUG    Importing BlpImagePlugin
+2021-05-16 11:32:23,661 PIL.Image    DEBUG    Importing BmpImagePlugin
+2021-05-16 11:32:23,661 PIL.Image    DEBUG    Importing BufrStubImagePlugin
+2021-05-16 11:32:23,662 PIL.Image    DEBUG    Importing CurImagePlugin
+2021-05-16 11:32:23,663 PIL.Image    DEBUG    Importing DcxImagePlugin
+2021-05-16 11:32:23,665 PIL.Image    DEBUG    Importing DdsImagePlugin
+2021-05-16 11:32:23,666 PIL.Image    DEBUG    Importing EpsImagePlugin
+2021-05-16 11:32:23,667 PIL.Image    DEBUG    Importing FitsStubImagePlugin
+2021-05-16 11:32:23,668 PIL.Image    DEBUG    Importing FliImagePlugin
+2021-05-16 11:32:23,669 PIL.Image    DEBUG    Importing FpxImagePlugin
+2021-05-16 11:32:23,670 PIL.Image    DEBUG    Image: failed to import FpxImagePlugin: No module named 'olefile'
+2021-05-16 11:32:23,670 PIL.Image    DEBUG    Importing FtexImagePlugin
+2021-05-16 11:32:23,671 PIL.Image    DEBUG    Importing GbrImagePlugin
+2021-05-16 11:32:23,672 PIL.Image    DEBUG    Importing GifImagePlugin
+2021-05-16 11:32:23,672 PIL.Image    DEBUG    Importing GribStubImagePlugin
+2021-05-16 11:32:23,672 PIL.Image    DEBUG    Importing Hdf5StubImagePlugin
+2021-05-16 11:32:23,673 PIL.Image    DEBUG    Importing IcnsImagePlugin
+2021-05-16 11:32:23,675 PIL.Image    DEBUG    Importing IcoImagePlugin
+2021-05-16 11:32:23,676 PIL.Image    DEBUG    Importing ImImagePlugin
+2021-05-16 11:32:23,677 PIL.Image    DEBUG    Importing ImtImagePlugin
+2021-05-16 11:32:23,678 PIL.Image    DEBUG    Importing IptcImagePlugin
+2021-05-16 11:32:23,678 PIL.Image    DEBUG    Importing JpegImagePlugin
+2021-05-16 11:32:23,678 PIL.Image    DEBUG    Importing Jpeg2KImagePlugin
+2021-05-16 11:32:23,678 PIL.Image    DEBUG    Importing McIdasImagePlugin
+2021-05-16 11:32:23,679 PIL.Image    DEBUG    Importing MicImagePlugin
+2021-05-16 11:32:23,680 PIL.Image    DEBUG    Image: failed to import MicImagePlugin: No module named 'olefile'
+2021-05-16 11:32:23,680 PIL.Image    DEBUG    Importing MpegImagePlugin
+2021-05-16 11:32:23,680 PIL.Image    DEBUG    Importing MpoImagePlugin
+2021-05-16 11:32:23,681 PIL.Image    DEBUG    Importing MspImagePlugin
+2021-05-16 11:32:23,682 PIL.Image    DEBUG    Importing PalmImagePlugin
+2021-05-16 11:32:23,686 PIL.Image    DEBUG    Importing PcdImagePlugin
+2021-05-16 11:32:23,687 PIL.Image    DEBUG    Importing PcxImagePlugin
+2021-05-16 11:32:23,687 PIL.Image    DEBUG    Importing PdfImagePlugin
+2021-05-16 11:32:23,698 PIL.Image    DEBUG    Importing PixarImagePlugin
+2021-05-16 11:32:23,699 PIL.Image    DEBUG    Importing PngImagePlugin
+2021-05-16 11:32:23,699 PIL.Image    DEBUG    Importing PpmImagePlugin
+2021-05-16 11:32:23,699 PIL.Image    DEBUG    Importing PsdImagePlugin
+2021-05-16 11:32:23,700 PIL.Image    DEBUG    Importing SgiImagePlugin
+2021-05-16 11:32:23,703 PIL.Image    DEBUG    Importing SpiderImagePlugin
+2021-05-16 11:32:23,704 PIL.Image    DEBUG    Importing SunImagePlugin
+2021-05-16 11:32:23,705 PIL.Image    DEBUG    Importing TgaImagePlugin
+2021-05-16 11:32:23,707 PIL.Image    DEBUG    Importing TiffImagePlugin
+2021-05-16 11:32:23,707 PIL.Image    DEBUG    Importing WebPImagePlugin
+2021-05-16 11:32:23,724 PIL.Image    DEBUG    Importing WmfImagePlugin
+2021-05-16 11:32:23,725 PIL.Image    DEBUG    Importing XbmImagePlugin
+2021-05-16 11:32:23,727 PIL.Image    DEBUG    Importing XpmImagePlugin
+2021-05-16 11:32:23,728 PIL.Image    DEBUG    Importing XVThumbImagePlugin
+2021-05-16 11:32:27,473 properties.models INFO     Created new commercial property post. ID: 14
+2021-05-16 11:32:27,550 django.request ERROR    Internal Server Error: /admin/properties/commercialproperty/add/
+Traceback (most recent call last):
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/django/contrib/admin/options.py", line 614, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/django/contrib/admin/sites.py", line 233, in inner
+    return view(request, *args, **kwargs)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/django/contrib/admin/options.py", line 1653, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/django/contrib/admin/options.py", line 1534, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/django/contrib/admin/options.py", line 1584, in _changeform_view
+    self.log_addition(request, new_object, change_message)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/django/contrib/admin/options.py", line 814, in log_addition
+    object_repr=str(object),
+  File "/Users/muhammed/Documents/Study/semester-6/Django-Backend/project/shanyrak/properties/models.py", line 59, in __str__
+    return self.business_center.name
+AttributeError: 'NoneType' object has no attribute 'name'
+2021-05-16 11:33:07,203 django.request ERROR    Internal Server Error: /api/property/commercial/
+Traceback (most recent call last):
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/muhammed/Documents/Study/semester-6/Django-Backend/project/shanyrak/api/views.py", line 33, in create
+    request_user = DefaultUser.objects.get(user=request.user)
+AttributeError: type object 'DefaultUser' has no attribute 'objects'
+2021-05-16 11:33:40,310 django.utils.autoreload INFO     /Users/muhammed/Documents/Study/semester-6/Django-Backend/project/shanyrak/_auth/models.py changed, reloading.
+2021-05-16 11:33:40,311 asyncio      DEBUG    Using selector: KqueueSelector
+2021-05-16 11:33:41,110 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2021-05-16 11:33:41,916 properties.models INFO     Created new commercial property post. ID: 15
+2021-05-16 11:33:45,296 properties.models INFO     Created new commercial property post. ID: 16
+2021-05-16 11:33:45,357 django.request ERROR    Internal Server Error: /admin/properties/commercialproperty/add/
+Traceback (most recent call last):
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/django/contrib/admin/options.py", line 614, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/django/contrib/admin/sites.py", line 233, in inner
+    return view(request, *args, **kwargs)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/django/contrib/admin/options.py", line 1653, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/django/contrib/admin/options.py", line 1534, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/django/contrib/admin/options.py", line 1584, in _changeform_view
+    self.log_addition(request, new_object, change_message)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/django/contrib/admin/options.py", line 814, in log_addition
+    object_repr=str(object),
+  File "/Users/muhammed/Documents/Study/semester-6/Django-Backend/project/shanyrak/properties/models.py", line 59, in __str__
+    return self.business_center.name
+AttributeError: 'NoneType' object has no attribute 'name'
+2021-05-16 11:33:51,230 PIL.Image    DEBUG    Importing BlpImagePlugin
+2021-05-16 11:33:51,231 PIL.Image    DEBUG    Importing BmpImagePlugin
+2021-05-16 11:33:51,231 PIL.Image    DEBUG    Importing BufrStubImagePlugin
+2021-05-16 11:33:51,232 PIL.Image    DEBUG    Importing CurImagePlugin
+2021-05-16 11:33:51,233 PIL.Image    DEBUG    Importing DcxImagePlugin
+2021-05-16 11:33:51,234 PIL.Image    DEBUG    Importing DdsImagePlugin
+2021-05-16 11:33:51,235 PIL.Image    DEBUG    Importing EpsImagePlugin
+2021-05-16 11:33:51,236 PIL.Image    DEBUG    Importing FitsStubImagePlugin
+2021-05-16 11:33:51,237 PIL.Image    DEBUG    Importing FliImagePlugin
+2021-05-16 11:33:51,237 PIL.Image    DEBUG    Importing FpxImagePlugin
+2021-05-16 11:33:51,238 PIL.Image    DEBUG    Image: failed to import FpxImagePlugin: No module named 'olefile'
+2021-05-16 11:33:51,238 PIL.Image    DEBUG    Importing FtexImagePlugin
+2021-05-16 11:33:51,239 PIL.Image    DEBUG    Importing GbrImagePlugin
+2021-05-16 11:33:51,239 PIL.Image    DEBUG    Importing GifImagePlugin
+2021-05-16 11:33:51,240 PIL.Image    DEBUG    Importing GribStubImagePlugin
+2021-05-16 11:33:51,240 PIL.Image    DEBUG    Importing Hdf5StubImagePlugin
+2021-05-16 11:33:51,241 PIL.Image    DEBUG    Importing IcnsImagePlugin
+2021-05-16 11:33:51,243 PIL.Image    DEBUG    Importing IcoImagePlugin
+2021-05-16 11:33:51,244 PIL.Image    DEBUG    Importing ImImagePlugin
+2021-05-16 11:33:51,245 PIL.Image    DEBUG    Importing ImtImagePlugin
+2021-05-16 11:33:51,245 PIL.Image    DEBUG    Importing IptcImagePlugin
+2021-05-16 11:33:51,246 PIL.Image    DEBUG    Importing JpegImagePlugin
+2021-05-16 11:33:51,246 PIL.Image    DEBUG    Importing Jpeg2KImagePlugin
+2021-05-16 11:33:51,246 PIL.Image    DEBUG    Importing McIdasImagePlugin
+2021-05-16 11:33:51,246 PIL.Image    DEBUG    Importing MicImagePlugin
+2021-05-16 11:33:51,247 PIL.Image    DEBUG    Image: failed to import MicImagePlugin: No module named 'olefile'
+2021-05-16 11:33:51,247 PIL.Image    DEBUG    Importing MpegImagePlugin
+2021-05-16 11:33:51,248 PIL.Image    DEBUG    Importing MpoImagePlugin
+2021-05-16 11:33:51,248 PIL.Image    DEBUG    Importing MspImagePlugin
+2021-05-16 11:33:51,249 PIL.Image    DEBUG    Importing PalmImagePlugin
+2021-05-16 11:33:51,249 PIL.Image    DEBUG    Importing PcdImagePlugin
+2021-05-16 11:33:51,250 PIL.Image    DEBUG    Importing PcxImagePlugin
+2021-05-16 11:33:51,250 PIL.Image    DEBUG    Importing PdfImagePlugin
+2021-05-16 11:33:51,258 PIL.Image    DEBUG    Importing PixarImagePlugin
+2021-05-16 11:33:51,259 PIL.Image    DEBUG    Importing PngImagePlugin
+2021-05-16 11:33:51,259 PIL.Image    DEBUG    Importing PpmImagePlugin
+2021-05-16 11:33:51,259 PIL.Image    DEBUG    Importing PsdImagePlugin
+2021-05-16 11:33:51,260 PIL.Image    DEBUG    Importing SgiImagePlugin
+2021-05-16 11:33:51,261 PIL.Image    DEBUG    Importing SpiderImagePlugin
+2021-05-16 11:33:51,262 PIL.Image    DEBUG    Importing SunImagePlugin
+2021-05-16 11:33:51,262 PIL.Image    DEBUG    Importing TgaImagePlugin
+2021-05-16 11:33:51,263 PIL.Image    DEBUG    Importing TiffImagePlugin
+2021-05-16 11:33:51,263 PIL.Image    DEBUG    Importing WebPImagePlugin
+2021-05-16 11:33:51,268 PIL.Image    DEBUG    Importing WmfImagePlugin
+2021-05-16 11:33:51,268 PIL.Image    DEBUG    Importing XbmImagePlugin
+2021-05-16 11:33:51,270 PIL.Image    DEBUG    Importing XpmImagePlugin
+2021-05-16 11:33:51,271 PIL.Image    DEBUG    Importing XVThumbImagePlugin
+2021-05-16 11:34:07,802 properties.models INFO     Created new commercial property post. ID: 17
+2021-05-16 11:34:07,878 django.request ERROR    Internal Server Error: /admin/properties/commercialproperty/add/
+Traceback (most recent call last):
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/django/contrib/admin/options.py", line 614, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/django/contrib/admin/sites.py", line 233, in inner
+    return view(request, *args, **kwargs)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/django/contrib/admin/options.py", line 1653, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/django/contrib/admin/options.py", line 1534, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/django/contrib/admin/options.py", line 1584, in _changeform_view
+    self.log_addition(request, new_object, change_message)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/django/contrib/admin/options.py", line 814, in log_addition
+    object_repr=str(object),
+  File "/Users/muhammed/Documents/Study/semester-6/Django-Backend/project/shanyrak/properties/models.py", line 59, in __str__
+    return self.business_center.name
+AttributeError: 'NoneType' object has no attribute 'name'
+2021-05-16 11:34:36,361 django.utils.autoreload INFO     /Users/muhammed/Documents/Study/semester-6/Django-Backend/project/shanyrak/properties/models.py changed, reloading.
+2021-05-16 11:34:36,362 asyncio      DEBUG    Using selector: KqueueSelector
+2021-05-16 11:34:37,002 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2021-05-16 11:34:37,474 properties.models INFO     Created new commercial property post. ID: 18
+2021-05-16 11:34:37,534 django.request ERROR    Internal Server Error: /admin/properties/commercialproperty/add/
+Traceback (most recent call last):
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/django/contrib/admin/options.py", line 614, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/django/contrib/admin/sites.py", line 233, in inner
+    return view(request, *args, **kwargs)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/django/contrib/admin/options.py", line 1653, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/django/contrib/admin/options.py", line 1534, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/django/contrib/admin/options.py", line 1584, in _changeform_view
+    self.log_addition(request, new_object, change_message)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/django/contrib/admin/options.py", line 814, in log_addition
+    object_repr=str(object),
+TypeError: __str__ returned non-string (type NoneType)
+2021-05-16 11:34:39,139 properties.models INFO     Created new commercial property post. ID: 19
+2021-05-16 11:34:39,180 django.request ERROR    Internal Server Error: /admin/properties/commercialproperty/add/
+Traceback (most recent call last):
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/django/contrib/admin/options.py", line 614, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/django/contrib/admin/sites.py", line 233, in inner
+    return view(request, *args, **kwargs)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/django/contrib/admin/options.py", line 1653, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/django/contrib/admin/options.py", line 1534, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/django/contrib/admin/options.py", line 1584, in _changeform_view
+    self.log_addition(request, new_object, change_message)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/django/contrib/admin/options.py", line 814, in log_addition
+    object_repr=str(object),
+TypeError: __str__ returned non-string (type NoneType)
+2021-05-16 11:34:53,570 PIL.Image    DEBUG    Importing BlpImagePlugin
+2021-05-16 11:34:53,572 PIL.Image    DEBUG    Importing BmpImagePlugin
+2021-05-16 11:34:53,572 PIL.Image    DEBUG    Importing BufrStubImagePlugin
+2021-05-16 11:34:53,573 PIL.Image    DEBUG    Importing CurImagePlugin
+2021-05-16 11:34:53,574 PIL.Image    DEBUG    Importing DcxImagePlugin
+2021-05-16 11:34:53,576 PIL.Image    DEBUG    Importing DdsImagePlugin
+2021-05-16 11:34:53,577 PIL.Image    DEBUG    Importing EpsImagePlugin
+2021-05-16 11:34:53,578 PIL.Image    DEBUG    Importing FitsStubImagePlugin
+2021-05-16 11:34:53,579 PIL.Image    DEBUG    Importing FliImagePlugin
+2021-05-16 11:34:53,580 PIL.Image    DEBUG    Importing FpxImagePlugin
+2021-05-16 11:34:53,581 PIL.Image    DEBUG    Image: failed to import FpxImagePlugin: No module named 'olefile'
+2021-05-16 11:34:53,581 PIL.Image    DEBUG    Importing FtexImagePlugin
+2021-05-16 11:34:53,582 PIL.Image    DEBUG    Importing GbrImagePlugin
+2021-05-16 11:34:53,583 PIL.Image    DEBUG    Importing GifImagePlugin
+2021-05-16 11:34:53,583 PIL.Image    DEBUG    Importing GribStubImagePlugin
+2021-05-16 11:34:53,585 PIL.Image    DEBUG    Importing Hdf5StubImagePlugin
+2021-05-16 11:34:53,586 PIL.Image    DEBUG    Importing IcnsImagePlugin
+2021-05-16 11:34:53,588 PIL.Image    DEBUG    Importing IcoImagePlugin
+2021-05-16 11:34:53,589 PIL.Image    DEBUG    Importing ImImagePlugin
+2021-05-16 11:34:53,591 PIL.Image    DEBUG    Importing ImtImagePlugin
+2021-05-16 11:34:53,591 PIL.Image    DEBUG    Importing IptcImagePlugin
+2021-05-16 11:34:53,592 PIL.Image    DEBUG    Importing JpegImagePlugin
+2021-05-16 11:34:53,592 PIL.Image    DEBUG    Importing Jpeg2KImagePlugin
+2021-05-16 11:34:53,592 PIL.Image    DEBUG    Importing McIdasImagePlugin
+2021-05-16 11:34:53,593 PIL.Image    DEBUG    Importing MicImagePlugin
+2021-05-16 11:34:53,593 PIL.Image    DEBUG    Image: failed to import MicImagePlugin: No module named 'olefile'
+2021-05-16 11:34:53,594 PIL.Image    DEBUG    Importing MpegImagePlugin
+2021-05-16 11:34:53,594 PIL.Image    DEBUG    Importing MpoImagePlugin
+2021-05-16 11:34:53,595 PIL.Image    DEBUG    Importing MspImagePlugin
+2021-05-16 11:34:53,595 PIL.Image    DEBUG    Importing PalmImagePlugin
+2021-05-16 11:34:53,596 PIL.Image    DEBUG    Importing PcdImagePlugin
+2021-05-16 11:34:53,597 PIL.Image    DEBUG    Importing PcxImagePlugin
+2021-05-16 11:34:53,597 PIL.Image    DEBUG    Importing PdfImagePlugin
+2021-05-16 11:34:53,605 PIL.Image    DEBUG    Importing PixarImagePlugin
+2021-05-16 11:34:53,606 PIL.Image    DEBUG    Importing PngImagePlugin
+2021-05-16 11:34:53,606 PIL.Image    DEBUG    Importing PpmImagePlugin
+2021-05-16 11:34:53,606 PIL.Image    DEBUG    Importing PsdImagePlugin
+2021-05-16 11:34:53,606 PIL.Image    DEBUG    Importing SgiImagePlugin
+2021-05-16 11:34:53,607 PIL.Image    DEBUG    Importing SpiderImagePlugin
+2021-05-16 11:34:53,608 PIL.Image    DEBUG    Importing SunImagePlugin
+2021-05-16 11:34:53,608 PIL.Image    DEBUG    Importing TgaImagePlugin
+2021-05-16 11:34:53,609 PIL.Image    DEBUG    Importing TiffImagePlugin
+2021-05-16 11:34:53,609 PIL.Image    DEBUG    Importing WebPImagePlugin
+2021-05-16 11:34:53,612 PIL.Image    DEBUG    Importing WmfImagePlugin
+2021-05-16 11:34:53,612 PIL.Image    DEBUG    Importing XbmImagePlugin
+2021-05-16 11:34:53,613 PIL.Image    DEBUG    Importing XpmImagePlugin
+2021-05-16 11:34:53,614 PIL.Image    DEBUG    Importing XVThumbImagePlugin
+2021-05-16 11:34:53,636 properties.models INFO     Created new commercial property post. ID: 20
+2021-05-16 11:34:53,675 django.request ERROR    Internal Server Error: /admin/properties/commercialproperty/add/
+Traceback (most recent call last):
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/django/contrib/admin/options.py", line 614, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/django/contrib/admin/sites.py", line 233, in inner
+    return view(request, *args, **kwargs)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/django/contrib/admin/options.py", line 1653, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/django/contrib/admin/options.py", line 1534, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/django/contrib/admin/options.py", line 1584, in _changeform_view
+    self.log_addition(request, new_object, change_message)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/django/contrib/admin/options.py", line 814, in log_addition
+    object_repr=str(object),
+TypeError: __str__ returned non-string (type BusinessCenter)
+2021-05-16 11:35:03,192 django.utils.autoreload INFO     /Users/muhammed/Documents/Study/semester-6/Django-Backend/project/shanyrak/properties/models.py changed, reloading.
+2021-05-16 11:35:03,194 asyncio      DEBUG    Using selector: KqueueSelector
+2021-05-16 11:35:03,849 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2021-05-16 11:35:04,551 PIL.Image    DEBUG    Importing BlpImagePlugin
+2021-05-16 11:35:04,553 PIL.Image    DEBUG    Importing BmpImagePlugin
+2021-05-16 11:35:04,553 PIL.Image    DEBUG    Importing BufrStubImagePlugin
+2021-05-16 11:35:04,553 PIL.Image    DEBUG    Importing CurImagePlugin
+2021-05-16 11:35:04,554 PIL.Image    DEBUG    Importing DcxImagePlugin
+2021-05-16 11:35:04,556 PIL.Image    DEBUG    Importing DdsImagePlugin
+2021-05-16 11:35:04,556 PIL.Image    DEBUG    Importing EpsImagePlugin
+2021-05-16 11:35:04,558 PIL.Image    DEBUG    Importing FitsStubImagePlugin
+2021-05-16 11:35:04,558 PIL.Image    DEBUG    Importing FliImagePlugin
+2021-05-16 11:35:04,559 PIL.Image    DEBUG    Importing FpxImagePlugin
+2021-05-16 11:35:04,560 PIL.Image    DEBUG    Image: failed to import FpxImagePlugin: No module named 'olefile'
+2021-05-16 11:35:04,560 PIL.Image    DEBUG    Importing FtexImagePlugin
+2021-05-16 11:35:04,561 PIL.Image    DEBUG    Importing GbrImagePlugin
+2021-05-16 11:35:04,562 PIL.Image    DEBUG    Importing GifImagePlugin
+2021-05-16 11:35:04,562 PIL.Image    DEBUG    Importing GribStubImagePlugin
+2021-05-16 11:35:04,562 PIL.Image    DEBUG    Importing Hdf5StubImagePlugin
+2021-05-16 11:35:04,563 PIL.Image    DEBUG    Importing IcnsImagePlugin
+2021-05-16 11:35:04,564 PIL.Image    DEBUG    Importing IcoImagePlugin
+2021-05-16 11:35:04,566 PIL.Image    DEBUG    Importing ImImagePlugin
+2021-05-16 11:35:04,567 PIL.Image    DEBUG    Importing ImtImagePlugin
+2021-05-16 11:35:04,569 PIL.Image    DEBUG    Importing IptcImagePlugin
+2021-05-16 11:35:04,570 PIL.Image    DEBUG    Importing JpegImagePlugin
+2021-05-16 11:35:04,570 PIL.Image    DEBUG    Importing Jpeg2KImagePlugin
+2021-05-16 11:35:04,570 PIL.Image    DEBUG    Importing McIdasImagePlugin
+2021-05-16 11:35:04,571 PIL.Image    DEBUG    Importing MicImagePlugin
+2021-05-16 11:35:04,572 PIL.Image    DEBUG    Image: failed to import MicImagePlugin: No module named 'olefile'
+2021-05-16 11:35:04,573 PIL.Image    DEBUG    Importing MpegImagePlugin
+2021-05-16 11:35:04,573 PIL.Image    DEBUG    Importing MpoImagePlugin
+2021-05-16 11:35:04,574 PIL.Image    DEBUG    Importing MspImagePlugin
+2021-05-16 11:35:04,575 PIL.Image    DEBUG    Importing PalmImagePlugin
+2021-05-16 11:35:04,576 PIL.Image    DEBUG    Importing PcdImagePlugin
+2021-05-16 11:35:04,577 PIL.Image    DEBUG    Importing PcxImagePlugin
+2021-05-16 11:35:04,577 PIL.Image    DEBUG    Importing PdfImagePlugin
+2021-05-16 11:35:04,585 PIL.Image    DEBUG    Importing PixarImagePlugin
+2021-05-16 11:35:04,586 PIL.Image    DEBUG    Importing PngImagePlugin
+2021-05-16 11:35:04,586 PIL.Image    DEBUG    Importing PpmImagePlugin
+2021-05-16 11:35:04,586 PIL.Image    DEBUG    Importing PsdImagePlugin
+2021-05-16 11:35:04,587 PIL.Image    DEBUG    Importing SgiImagePlugin
+2021-05-16 11:35:04,589 PIL.Image    DEBUG    Importing SpiderImagePlugin
+2021-05-16 11:35:04,590 PIL.Image    DEBUG    Importing SunImagePlugin
+2021-05-16 11:35:04,591 PIL.Image    DEBUG    Importing TgaImagePlugin
+2021-05-16 11:35:04,592 PIL.Image    DEBUG    Importing TiffImagePlugin
+2021-05-16 11:35:04,592 PIL.Image    DEBUG    Importing WebPImagePlugin
+2021-05-16 11:35:04,596 PIL.Image    DEBUG    Importing WmfImagePlugin
+2021-05-16 11:35:04,597 PIL.Image    DEBUG    Importing XbmImagePlugin
+2021-05-16 11:35:04,598 PIL.Image    DEBUG    Importing XpmImagePlugin
+2021-05-16 11:35:04,599 PIL.Image    DEBUG    Importing XVThumbImagePlugin
+2021-05-16 11:35:04,612 properties.models INFO     Created new commercial property post. ID: 21
+2021-05-16 13:06:15,734 asyncio      DEBUG    Using selector: KqueueSelector
+2021-05-16 13:06:15,968 asyncio      DEBUG    Using selector: KqueueSelector

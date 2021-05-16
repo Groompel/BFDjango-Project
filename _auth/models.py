@@ -6,6 +6,11 @@ from django.db.models.signals import post_save
 # Create your models here.
 
 
+class DefaultUserAgentsManager(models.Manager):
+    def get_queryset(self):
+        return super().get_queryset().filter(is_agent=True)
+
+
 class DefaultUser(models.Model):
     user = models.OneToOneField(User, on_delete=models.CASCADE)
     phone_number = models.CharField(
@@ -21,6 +26,8 @@ class DefaultUser(models.Model):
         verbose_name='Birth date', blank=True, null=True)
     is_agent = models.BooleanField(
         'Agent', choices=[(True, 'Yes'), (False, 'No')], default=False)
+    objects = models.Manager()
+    agents = DefaultUserAgentsManager()
 
     class Meta:
         verbose_name = 'User'
@@ -36,10 +43,17 @@ def default_user_created_handler(sender, instance, created, *args, **kwargs):
         DefaultUser.objects.create(user=instance)
 
 
+class AgencyOwnerManager(models.Manager):
+    def get_agency_by_owner(self, owner):
+        return super().get_queryset().get(owner=owner)
+
+
 class Agency(models.Model):
     name = models.CharField(verbose_name='Name',
                             max_length=250, blank=False, null=False, default='')
     owner = models.ForeignKey(DefaultUser, on_delete=models.CASCADE, default=1)
+
+    objects = AgencyOwnerManager()
 
     @property
     def agents(self):
