@@ -1,0 +1,421 @@
+2021-05-15 13:49:29,545 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2021-05-15 13:50:08,915 django.utils.autoreload INFO     /Users/muhammed/Documents/Study/semester-6/Django-Backend/project/shanyrak/_auth/views.py changed, reloading.
+2021-05-15 13:50:08,915 asyncio      DEBUG    Using selector: KqueueSelector
+2021-05-15 13:50:09,507 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2021-05-15 13:50:15,752 _auth.views  INFO     Info message
+2021-05-15 14:18:42,879 django.utils.autoreload INFO     /Users/muhammed/Documents/Study/semester-6/Django-Backend/project/shanyrak/_auth/views.py changed, reloading.
+2021-05-15 14:18:42,884 asyncio      DEBUG    Using selector: KqueueSelector
+2021-05-15 14:18:43,570 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2021-05-15 14:18:48,005 django.utils.autoreload INFO     /Users/muhammed/Documents/Study/semester-6/Django-Backend/project/shanyrak/_auth/views.py changed, reloading.
+2021-05-15 14:18:48,006 asyncio      DEBUG    Using selector: KqueueSelector
+2021-05-15 14:18:48,631 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2021-05-15 15:20:52,280 django.utils.autoreload INFO     /Users/muhammed/Documents/Study/semester-6/Django-Backend/project/shanyrak/_auth/views.py changed, reloading.
+2021-05-15 15:20:52,285 asyncio      DEBUG    Using selector: KqueueSelector
+2021-05-15 15:20:53,071 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2021-05-15 15:21:27,812 _auth.views  INFO     Retieve a user profile of signal_test
+2021-05-15 15:21:57,407 django.utils.autoreload INFO     /Users/muhammed/Documents/Study/semester-6/Django-Backend/project/shanyrak/_auth/views.py changed, reloading.
+2021-05-15 15:21:57,408 asyncio      DEBUG    Using selector: KqueueSelector
+2021-05-15 15:21:58,150 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2021-05-15 15:22:46,196 asyncio      DEBUG    Using selector: KqueueSelector
+2021-05-16 07:55:04,885 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2021-05-16 07:56:00,400 properties.models INFO     Created new commercial property post. ID: 13
+2021-05-16 07:56:19,654 properties.models INFO     Updated commercial property post. ID: 13
+2021-05-16 07:56:34,475 properties.models INFO     Created new flat property post. ID: 17
+2021-05-16 07:56:40,706 properties.models INFO     Created new house property post. ID: 8
+2021-05-16 07:58:36,391 django.utils.autoreload INFO     /Users/muhammed/Documents/Study/semester-6/Django-Backend/project/shanyrak/misc/models.py changed, reloading.
+2021-05-16 07:58:36,391 asyncio      DEBUG    Using selector: KqueueSelector
+2021-05-16 07:58:37,095 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2021-05-16 07:58:57,969 django.utils.autoreload INFO     /Users/muhammed/Documents/Study/semester-6/Django-Backend/project/shanyrak/misc/models.py changed, reloading.
+2021-05-16 07:58:57,970 asyncio      DEBUG    Using selector: KqueueSelector
+2021-05-16 07:58:58,345 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2021-05-16 07:59:43,854 django.utils.autoreload INFO     /Users/muhammed/Documents/Study/semester-6/Django-Backend/project/shanyrak/misc/models.py changed, reloading.
+2021-05-16 07:59:43,855 asyncio      DEBUG    Using selector: KqueueSelector
+2021-05-16 07:59:44,469 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2021-05-16 08:10:30,252 django.utils.autoreload INFO     /Users/muhammed/Documents/Study/semester-6/Django-Backend/project/shanyrak/shanyrak/urls.py changed, reloading.
+2021-05-16 08:10:30,255 asyncio      DEBUG    Using selector: KqueueSelector
+2021-05-16 08:10:30,999 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2021-05-16 08:10:33,213 django.utils.autoreload INFO     /Users/muhammed/Documents/Study/semester-6/Django-Backend/project/shanyrak/shanyrak/urls.py changed, reloading.
+2021-05-16 08:10:33,213 asyncio      DEBUG    Using selector: KqueueSelector
+2021-05-16 08:10:33,641 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2021-05-16 08:11:17,283 django.utils.autoreload INFO     /Users/muhammed/Documents/Study/semester-6/Django-Backend/project/shanyrak/misc/views.py changed, reloading.
+2021-05-16 08:11:17,283 asyncio      DEBUG    Using selector: KqueueSelector
+2021-05-16 08:11:17,990 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2021-05-16 08:12:21,048 django.utils.autoreload INFO     /Users/muhammed/Documents/Study/semester-6/Django-Backend/project/shanyrak/misc/views.py changed, reloading.
+2021-05-16 08:12:21,048 asyncio      DEBUG    Using selector: KqueueSelector
+2021-05-16 08:12:21,886 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2021-05-16 08:13:01,314 django.utils.autoreload INFO     /Users/muhammed/Documents/Study/semester-6/Django-Backend/project/shanyrak/misc/views.py changed, reloading.
+2021-05-16 08:13:01,314 asyncio      DEBUG    Using selector: KqueueSelector
+2021-05-16 08:13:01,718 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2021-05-16 08:13:11,248 django.utils.autoreload INFO     /Users/muhammed/Documents/Study/semester-6/Django-Backend/project/shanyrak/misc/views.py changed, reloading.
+2021-05-16 08:13:11,248 asyncio      DEBUG    Using selector: KqueueSelector
+2021-05-16 08:13:11,705 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2021-05-16 08:13:18,165 django.utils.autoreload INFO     /Users/muhammed/Documents/Study/semester-6/Django-Backend/project/shanyrak/misc/views.py changed, reloading.
+2021-05-16 08:13:18,165 asyncio      DEBUG    Using selector: KqueueSelector
+2021-05-16 08:13:18,583 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2021-05-16 08:13:42,526 django.utils.autoreload INFO     /Users/muhammed/Documents/Study/semester-6/Django-Backend/project/shanyrak/misc/views.py changed, reloading.
+2021-05-16 08:13:42,527 asyncio      DEBUG    Using selector: KqueueSelector
+2021-05-16 08:13:42,922 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2021-05-16 08:14:28,470 django.utils.autoreload INFO     /Users/muhammed/Documents/Study/semester-6/Django-Backend/project/shanyrak/misc/urls.py changed, reloading.
+2021-05-16 08:14:28,471 asyncio      DEBUG    Using selector: KqueueSelector
+2021-05-16 08:14:29,280 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2021-05-16 08:16:02,188 django.utils.autoreload INFO     /Users/muhammed/Documents/Study/semester-6/Django-Backend/project/shanyrak/misc/models.py changed, reloading.
+2021-05-16 08:16:02,190 asyncio      DEBUG    Using selector: KqueueSelector
+2021-05-16 08:16:03,121 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2021-05-16 08:16:30,227 django.utils.autoreload INFO     /Users/muhammed/Documents/Study/semester-6/Django-Backend/project/shanyrak/misc/models.py changed, reloading.
+2021-05-16 08:16:30,227 asyncio      DEBUG    Using selector: KqueueSelector
+2021-05-16 08:16:30,821 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2021-05-16 08:17:44,028 django.utils.autoreload INFO     /Users/muhammed/Documents/Study/semester-6/Django-Backend/project/shanyrak/properties/models.py changed, reloading.
+2021-05-16 08:17:44,029 asyncio      DEBUG    Using selector: KqueueSelector
+2021-05-16 08:17:44,433 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2021-05-16 08:18:38,262 django.utils.autoreload INFO     /Users/muhammed/Documents/Study/semester-6/Django-Backend/project/shanyrak/_auth/views.py changed, reloading.
+2021-05-16 08:18:38,282 asyncio      DEBUG    Using selector: KqueueSelector
+2021-05-16 08:18:38,707 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2021-05-16 08:20:11,076 misc.views   INFO     List all residential complexes
+2021-05-16 08:21:13,128 django.request ERROR    Internal Server Error: /misc/residential-complex/1
+Traceback (most recent call last):
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/rest_framework/views.py", line 497, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/rest_framework/views.py", line 415, in initial
+    self.check_permissions(request)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/rest_framework/views.py", line 331, in check_permissions
+    for permission in self.get_permissions():
+  File "/Users/muhammed/Documents/Study/semester-6/Django-Backend/project/shanyrak/misc/views.py", line 39, in get_permissions
+    print(self.action)
+AttributeError: 'ResidentialComplexDetail' object has no attribute 'action'
+2021-05-16 08:21:16,736 django.request WARNING  Not Found: /misc/residential-complex/1/
+2021-05-16 08:21:29,728 django.utils.autoreload INFO     /Users/muhammed/Documents/Study/semester-6/Django-Backend/project/shanyrak/misc/urls.py changed, reloading.
+2021-05-16 08:21:29,729 asyncio      DEBUG    Using selector: KqueueSelector
+2021-05-16 08:21:30,431 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2021-05-16 08:21:32,328 django.request ERROR    Internal Server Error: /misc/residential-complex/1/
+Traceback (most recent call last):
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/rest_framework/views.py", line 497, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/rest_framework/views.py", line 415, in initial
+    self.check_permissions(request)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/rest_framework/views.py", line 331, in check_permissions
+    for permission in self.get_permissions():
+  File "/Users/muhammed/Documents/Study/semester-6/Django-Backend/project/shanyrak/misc/views.py", line 39, in get_permissions
+    print(self.action)
+AttributeError: 'ResidentialComplexDetail' object has no attribute 'action'
+2021-05-16 08:21:48,361 django.utils.autoreload INFO     /Users/muhammed/Documents/Study/semester-6/Django-Backend/project/shanyrak/misc/views.py changed, reloading.
+2021-05-16 08:21:48,374 asyncio      DEBUG    Using selector: KqueueSelector
+2021-05-16 08:21:48,760 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2021-05-16 08:22:03,462 django.utils.autoreload INFO     /Users/muhammed/Documents/Study/semester-6/Django-Backend/project/shanyrak/misc/views.py changed, reloading.
+2021-05-16 08:22:03,463 asyncio      DEBUG    Using selector: KqueueSelector
+2021-05-16 08:22:03,998 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2021-05-16 08:22:05,159 django.request ERROR    Internal Server Error: /misc/residential-complex/1/
+Traceback (most recent call last):
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/rest_framework/views.py", line 497, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/rest_framework/views.py", line 415, in initial
+    self.check_permissions(request)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/rest_framework/views.py", line 331, in check_permissions
+    for permission in self.get_permissions():
+  File "/Users/muhammed/Documents/Study/semester-6/Django-Backend/project/shanyrak/misc/views.py", line 39, in get_permissions
+    print(self.action)
+AttributeError: 'ResidentialComplexDetail' object has no attribute 'action'
+2021-05-16 08:22:06,104 django.request ERROR    Internal Server Error: /misc/residential-complex/1/
+Traceback (most recent call last):
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/rest_framework/views.py", line 497, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/rest_framework/views.py", line 415, in initial
+    self.check_permissions(request)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/rest_framework/views.py", line 331, in check_permissions
+    for permission in self.get_permissions():
+  File "/Users/muhammed/Documents/Study/semester-6/Django-Backend/project/shanyrak/misc/views.py", line 39, in get_permissions
+    print(self.action)
+AttributeError: 'ResidentialComplexDetail' object has no attribute 'action'
+2021-05-16 08:22:06,757 django.request ERROR    Internal Server Error: /misc/residential-complex/1/
+Traceback (most recent call last):
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/rest_framework/views.py", line 497, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/rest_framework/views.py", line 415, in initial
+    self.check_permissions(request)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/rest_framework/views.py", line 331, in check_permissions
+    for permission in self.get_permissions():
+  File "/Users/muhammed/Documents/Study/semester-6/Django-Backend/project/shanyrak/misc/views.py", line 39, in get_permissions
+    print(self.action)
+AttributeError: 'ResidentialComplexDetail' object has no attribute 'action'
+2021-05-16 08:22:10,026 asyncio      DEBUG    Using selector: KqueueSelector
+2021-05-16 08:22:10,154 asyncio      DEBUG    Using selector: KqueueSelector
+2021-05-16 08:22:12,049 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2021-05-16 08:22:14,514 django.request ERROR    Internal Server Error: /misc/residential-complex/1/
+Traceback (most recent call last):
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/rest_framework/views.py", line 497, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/rest_framework/views.py", line 415, in initial
+    self.check_permissions(request)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/rest_framework/views.py", line 331, in check_permissions
+    for permission in self.get_permissions():
+  File "/Users/muhammed/Documents/Study/semester-6/Django-Backend/project/shanyrak/misc/views.py", line 39, in get_permissions
+    print(self.action)
+AttributeError: 'ResidentialComplexDetail' object has no attribute 'action'
+2021-05-16 08:22:58,742 django.utils.autoreload INFO     /Users/muhammed/Documents/Study/semester-6/Django-Backend/project/shanyrak/misc/views.py changed, reloading.
+2021-05-16 08:22:58,743 asyncio      DEBUG    Using selector: KqueueSelector
+2021-05-16 08:22:59,227 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2021-05-16 08:23:00,237 django.request ERROR    Internal Server Error: /misc/residential-complex/1/
+Traceback (most recent call last):
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/rest_framework/views.py", line 497, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/rest_framework/views.py", line 415, in initial
+    self.check_permissions(request)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/rest_framework/views.py", line 331, in check_permissions
+    for permission in self.get_permissions():
+  File "/Users/muhammed/Documents/Study/semester-6/Django-Backend/project/shanyrak/misc/views.py", line 39, in get_permissions
+    print(self.action)
+AttributeError: 'ResidentialComplexDetail' object has no attribute 'action'
+2021-05-16 08:23:01,382 django.request ERROR    Internal Server Error: /misc/residential-complex/1/
+Traceback (most recent call last):
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/rest_framework/views.py", line 497, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/rest_framework/views.py", line 415, in initial
+    self.check_permissions(request)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/rest_framework/views.py", line 331, in check_permissions
+    for permission in self.get_permissions():
+  File "/Users/muhammed/Documents/Study/semester-6/Django-Backend/project/shanyrak/misc/views.py", line 39, in get_permissions
+    print(self.action)
+AttributeError: 'ResidentialComplexDetail' object has no attribute 'action'
+2021-05-16 08:23:02,860 asyncio      DEBUG    Using selector: KqueueSelector
+2021-05-16 08:23:02,988 asyncio      DEBUG    Using selector: KqueueSelector
+2021-05-16 08:23:04,333 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2021-05-16 08:23:06,156 django.request ERROR    Internal Server Error: /misc/residential-complex/1/
+Traceback (most recent call last):
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/rest_framework/views.py", line 497, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/rest_framework/views.py", line 415, in initial
+    self.check_permissions(request)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/rest_framework/views.py", line 331, in check_permissions
+    for permission in self.get_permissions():
+  File "/Users/muhammed/Documents/Study/semester-6/Django-Backend/project/shanyrak/misc/views.py", line 39, in get_permissions
+    print(self.action)
+AttributeError: 'ResidentialComplexDetail' object has no attribute 'action'
+2021-05-16 08:23:11,854 django.utils.autoreload INFO     /Users/muhammed/Documents/Study/semester-6/Django-Backend/project/shanyrak/misc/views.py changed, reloading.
+2021-05-16 08:23:11,855 asyncio      DEBUG    Using selector: KqueueSelector
+2021-05-16 08:23:12,331 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2021-05-16 08:23:14,484 django.request ERROR    Internal Server Error: /misc/residential-complex/1/
+Traceback (most recent call last):
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/rest_framework/views.py", line 497, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/rest_framework/views.py", line 415, in initial
+    self.check_permissions(request)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/rest_framework/views.py", line 331, in check_permissions
+    for permission in self.get_permissions():
+  File "/Users/muhammed/Documents/Study/semester-6/Django-Backend/project/shanyrak/misc/views.py", line 44, in get_permissions
+    return [permission() for permission in permission_classes]
+UnboundLocalError: local variable 'permission_classes' referenced before assignment
+2021-05-16 08:23:36,351 django.utils.autoreload INFO     /Users/muhammed/Documents/Study/semester-6/Django-Backend/project/shanyrak/misc/views.py changed, reloading.
+2021-05-16 08:23:36,352 asyncio      DEBUG    Using selector: KqueueSelector
+2021-05-16 08:23:36,776 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2021-05-16 08:23:37,351 django.request ERROR    Internal Server Error: /misc/residential-complex/1/
+Traceback (most recent call last):
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/muhammed/Documents/Study/semester-6/Django-Backend/project/shanyrak/misc/views.py", line 54, in get
+    rc = self.get_object(id)
+TypeError: get_object() takes 1 positional argument but 2 were given
+2021-05-16 08:23:38,772 django.request ERROR    Internal Server Error: /misc/residential-complex/1/
+Traceback (most recent call last):
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/muhammed/_environments/django-env/lib/python3.7/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/muhammed/Documents/Study/semester-6/Django-Backend/project/shanyrak/misc/views.py", line 54, in get
+    rc = self.get_object(id)
+TypeError: get_object() takes 1 positional argument but 2 were given
+2021-05-16 08:23:49,360 django.utils.autoreload INFO     /Users/muhammed/Documents/Study/semester-6/Django-Backend/project/shanyrak/misc/views.py changed, reloading.
+2021-05-16 08:23:49,360 asyncio      DEBUG    Using selector: KqueueSelector
+2021-05-16 08:23:49,768 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2021-05-16 08:23:50,042 misc.views   INFO     Get residential complex detail. ID: 1
+2021-05-16 08:23:53,740 misc.views   INFO     Get residential complex detail. ID: 2
+2021-05-16 08:23:55,022 misc.views   INFO     Get residential complex detail. ID: 1
+2021-05-16 08:24:16,349 misc.models  INFO     Created new residential complex. ID: 3
+2021-05-16 08:24:31,335 misc.models  INFO     Created new residential complex. ID: 4
+2021-05-16 08:24:34,531 misc.views   INFO     List all residential complexes
+2021-05-16 08:25:00,666 django.request WARNING  Method Not Allowed: /misc/residential-complex/3/
+2021-05-16 08:25:19,495 django.utils.autoreload INFO     /Users/muhammed/Documents/Study/semester-6/Django-Backend/project/shanyrak/misc/views.py changed, reloading.
+2021-05-16 08:25:19,496 asyncio      DEBUG    Using selector: KqueueSelector
+2021-05-16 08:25:19,929 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2021-05-16 08:25:20,499 misc.models  INFO     Updated a residential complex. ID: 3
+2021-05-16 08:25:24,427 misc.views   INFO     List all residential complexes
+2021-05-16 08:25:49,308 misc.models  INFO     Updated a residential complex. ID: 4
+2021-05-16 08:25:55,733 misc.models  INFO     Deleted a residential complex. ID: 4
+2021-05-16 08:25:58,682 misc.views   INFO     List all residential complexes
+2021-05-16 08:26:40,256 misc.views   INFO     List all business centers
+2021-05-16 08:27:29,215 misc.views   INFO     Get business center detail. ID: 1
+2021-05-16 08:27:33,691 misc.views   INFO     List all business centers
+2021-05-16 08:27:41,926 misc.models  INFO     Created new business center. ID: 2
+2021-05-16 08:27:48,541 misc.models  INFO     Created new business center. ID: 3
+2021-05-16 08:27:52,667 misc.views   INFO     List all business centers
+2021-05-16 08:28:09,341 misc.models  INFO     Updated a business center. ID: 2
+2021-05-16 08:28:13,839 django.request WARNING  Not Found: /misc/residential-complex/4/
+2021-05-16 08:28:19,682 misc.models  INFO     Deleted a business center. ID: 2
+2021-05-16 08:28:22,472 misc.views   INFO     List all business centers
+2021-05-16 08:29:38,141 _auth.views  INFO     Retieve a user profile of admin
+2021-05-16 09:31:15,504 asyncio      DEBUG    Using selector: KqueueSelector
+2021-05-16 09:31:15,678 asyncio      DEBUG    Using selector: KqueueSelector

@@ -1,5 +1,7 @@
 from django.db import models
 from django.contrib.auth.models import User
+from django.dispatch import receiver
+from django.db.models.signals import post_save
 
 # Create your models here.
 
@@ -15,7 +17,10 @@ class DefaultUser(models.Model):
     GENDERS = [('male', 'Male'),  ('female', 'Female')]
     gender = models.CharField(verbose_name='Gender',
                               choices=GENDERS, default='male', max_length=6)
-    birth_date = models.DateField(verbose_name='Birth date')
+    birth_date = models.DateField(
+        verbose_name='Birth date', blank=True, null=True)
+    is_agent = models.BooleanField(
+        'Agent', choices=[(True, 'Yes'), (False, 'No')], default=False)
 
     class Meta:
         verbose_name = 'User'
@@ -25,9 +30,20 @@ class DefaultUser(models.Model):
         return '%s, %s %s' % (self.user.email, self.first_name, self.last_name)
 
 
+@receiver(post_save, sender=User)
+def default_user_created_handler(sender, instance, created, *args, **kwargs):
+    if created:
+        DefaultUser.objects.create(user=instance)
+
+
 class Agency(models.Model):
     name = models.CharField(verbose_name='Name',
                             max_length=250, blank=False, null=False, default='')
+    owner = models.ForeignKey(DefaultUser, on_delete=models.CASCADE, default=1)
+
+    @property
+    def agents(self):
+        return Agent.objects.filter(agency=self)
 
     class Meta:
         verbose_name = 'Agency'
@@ -37,7 +53,8 @@ class Agency(models.Model):
         return self.name
 
 
-class Agent(DefaultUser):
+class Agent(models.Model):
+    user = models.ForeignKey(DefaultUser, on_delete=models.CASCADE)
     agency = models.ForeignKey(Agency, on_delete=models.CASCADE)
 
     class Meta:
@@ -45,4 +62,4 @@ class Agent(DefaultUser):
         verbose_name_plural = 'Agents'
 
     def __str__(self):
-        return self.agency.name
+        return '%s %s at agency "%s"' % (self.user.first_name, self.user.last_name, self.agency.name)

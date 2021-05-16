@@ -5,7 +5,7 @@ from rest_framework import serializers as ser
 class AddressSerializer(ser.ModelSerializer):
     class Meta:
         model = Address
-        fields = '__all__'
+        fields = ['city', 'district', 'street', 'street_number']
 
 
 class BusinessCenterSerializer(ser.ModelSerializer):
